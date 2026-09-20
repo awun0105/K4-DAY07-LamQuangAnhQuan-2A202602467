@@ -1,0 +1,62 @@
+Đã nạp 37 chunks vào store.
+
+Câu 1: Sản phẩm đổi ý có được mở seal/mở hộp không?
+Filter: {'audience': 'buyer'}
+  Top 1: [Score: 0.163] - ID: buyer-tra-hang-doi-y
+    Snippet: ## 3/ Sản phẩm phải đáp ứng những tiêu chí nào? Sản phẩm phải còn mới hoàn toàn - chưa qua sử dụng, ...
+  Top 2: [Score: 0.135] - ID: buyer-quy-dinh-chung-va-han-che
+    Snippet: ## 2. Quy định hoàn Voucher/Xu Hoàn tiền ngay: Hoàn mã và Xu. Voucher Shopee Live, Video sẽ không đư...
+  Top 3: [Score: 0.130] - ID: buyer-phuong-thuc-gui-hang
+    Snippet: ## 1. Hình thức trả hàng Đơn vị vận chuyển đến lấy hàng: Miễn phí trả hàng. Trả hàng tại bưu cục: Mi...
+  Agent: Câu trả lời giả lập từ LLM dựa trên ngữ cảnh đã truy xuất.
+
+Câu 2: Người bán gửi sai hàng có được trả hàng không?
+Filter: None
+  Top 1: [Score: 0.252] - ID: buyer-gui-yeu-cau-va-tra-loi
+    Snippet: # Gửi yêu cầu và Trả lời đề xuất hoàn tiền ngay  Nguồn 1: https://help.shopee.vn/portal/4/article/79...
+  Top 2: [Score: 0.215] - ID: buyer-phuong-thuc-gui-hang
+    Snippet: ## 1. Hình thức trả hàng Đơn vị vận chuyển đến lấy hàng: Miễn phí trả hàng. Trả hàng tại bưu cục: Mi...
+  Top 3: [Score: 0.214] - ID: seller-quy-trinh-tra-hang-hoan-tien
+    Snippet: ## 3. Lý do "Đổi ý" Người bán không bị tính Tỷ lệ đơn hàng không thành công (NFR). Nếu hàng trả về k...
+  Agent: Câu trả lời giả lập từ LLM dựa trên ngữ cảnh đã truy xuất.
+
+Câu 3: Khẩu trang y tế có được trả hàng với lý do đổi ý không?
+Filter: {'audience': 'buyer'}
+  Top 1: [Score: 0.096] - ID: buyer-tra-hang-doi-y
+    Snippet: ## 1/ Trả hàng do "đổi ý/không còn nhu cầu" nghĩa là gì? Đây là các trường hợp trả hàng khi người mu...
+  Top 2: [Score: 0.092] - ID: buyer-quy-dinh-chung-va-han-che
+    Snippet: # Quy định chung và Sản phẩm hạn chế  Nguồn 1: https://help.shopee.vn/portal/4/article/188931 Nguồn ...
+  Top 3: [Score: 0.070] - ID: buyer-bang-chung-va-dong-goi
+    Snippet: ## 2. Cách đóng gói đơn hàng hoàn trả Sử dụng hộp vận chuyển bên ngoài để bảo vệ hộp nhà sản xuất. L...
+  Agent: Câu trả lời giả lập từ LLM dựa trên ngữ cảnh đã truy xuất.
+
+Câu 4: Video mở kiện hàng cần quay mấy mặt của kiện hàng?
+Filter: {'audience': 'buyer'}
+  Top 1: [Score: 0.214] - ID: buyer-bang-chung-va-dong-goi
+    Snippet: # Hướng dẫn bằng chứng và cách đóng gói  Nguồn 1: https://help.shopee.vn/portal/4/article/79467 Nguồ...
+  Top 2: [Score: 0.161] - ID: buyer-tra-hang-doi-y
+    Snippet: ## 3/ Sản phẩm phải đáp ứng những tiêu chí nào? Sản phẩm phải còn mới hoàn toàn - chưa qua sử dụng, ...
+  Top 3: [Score: 0.159] - ID: buyer-tra-hang-doi-y
+    Snippet: # Những điều cần biết về Trả hàng do "Đổi ý/không còn nhu cầu"...
+  Agent: Câu trả lời giả lập từ LLM dựa trên ngữ cảnh đã truy xuất.
+
+Câu 5: Người bán có bao nhiêu ngày để trả hàng về kho?
+Filter: {'audience': 'seller'}
+  Top 1: [Score: 0.279] - ID: seller-quy-trinh-shopee-mall
+    Snippet: ## 3. Hàng không hợp lệ Nếu Người mua gửi hàng sai/tráo đổi và Shop khiếu nại thành công, Shopee sẽ ...
+  Top 2: [Score: 0.136] - ID: seller-tong-quan-va-faq
+    Snippet: # Tổng quan quản lý Trả hàng và FAQ cho Người bán  Nguồn 1: https://banhang.shopee.vn/edu/article/21...
+  Top 3: [Score: 0.092] - ID: seller-giai-quyet-tranh-chap
+    Snippet: ## 1. Khuyến khích thương lượng Shopee khuyến khích hòa giải giữa Người bán và Người mua. Nếu không ...
+  Agent: Câu trả lời giả lập từ LLM dựa trên ngữ cảnh đã truy xuất.
+
+Câu 6 [A/B TEST]: Người bán có bao nhiêu ngày để trả hàng về kho?
+Filter: None
+  Top 1: [Score: 0.279] - ID: seller-quy-trinh-shopee-mall
+    Snippet: ## 3. Hàng không hợp lệ Nếu Người mua gửi hàng sai/tráo đổi và Shop khiếu nại thành công, Shopee sẽ ...
+  Top 2: [Score: 0.218] - ID: buyer-phuong-thuc-gui-hang
+    Snippet: ## 2. Chính sách hỗ trợ phí trả hàng Tự sắp xếp cho Shopee Mall: Shopee hoàn lại bằng tiền. Tự sắp x...
+  Top 3: [Score: 0.207] - ID: buyer-quy-dinh-chung-va-han-che
+    Snippet: # Quy định chung và Sản phẩm hạn chế  Nguồn 1: https://help.shopee.vn/portal/4/article/188931 Nguồn ...
+  Agent: Câu trả lời giả lập từ LLM dựa trên ngữ cảnh đã truy xuất.
+
